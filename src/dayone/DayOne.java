@@ -33,6 +33,7 @@ public class DayOne {
 
         System.out.println("Score " + score);
 
+//        part one
         while(!leftList.isEmpty()) {
             int leftMin = getSmallest(leftList);
             int rightMin = getSmallest(rightList);
